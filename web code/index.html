@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebCode</title>
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/main.css       ">
+    <link rel="shortcut icon" href="media/logo.png" type="image/x-icon">
+
+    <!-- AJAX -->
+
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css'><link rel="stylesheet" href="./style.css">
+
+    <!-- Google fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Staatliches&display=swap" rel="stylesheet">
+
+    <!-- Google fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+      <div class="container__header">
+        <div class="logo logo-enlace">
+          <a href="index.html">
+            <div class="logo__texto">
+              <p>WebCode</p>
+            </div>
+            <img src="media/logo.png" alt="logo imagen">
+          </a>
+        </div>
+        <div class="menu">
+          <nav>
+            <ul>
+              <li><a href="#">Productos</a></li>
+              <li><a href="#">Soluciones</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Compañía</a></li>
+              <li><a href="#">Contactos</a></li>
+            </ul>
+          </nav>
+        </div>
+        <i class="fa-solid fa-bars" id="icon_menu"></i>
+        <!-- <div class="header__register">
+                    <input type="button" class="btn__header-register" value="Registrarse">
+                </div> -->
+      </div>
+    </header>
+    
+    <main class="container">
+      <div class="cover">
+        <div class="text__information-cover">
+          <h1>Haz historia. No se limite a informar sobre ello.</h1>
+          <p>Vaya más allá de informar sobre datos históricos. Utilice la inteligencia procesable de cada
+            evento digital para impactar positivamente en los resultados comerciales. Continuamente. En
+            tiempo real. A escala.</p>
+    
+          <div class="buttons__cover">
+            <input type="button" class="btn__readMore-cover" value="Leer más">
+          </div>
+        </div>
+        <div class="media__cover">
+          <video src="media/animacion_cover.webm" autoplay playinline loop muted preload="auto"></video>
+        </div>
+      </div>
+    
+      <div class="container__banner">
+        <div class="banner">
+          <div class="banner__icon-heart">
+            <img src="media/heart_notify.png" id="icon_heart" alt="">
+          </div>
+          <div class="banner__icon-fire">
+            <img src="media/fire-dynamic-color.png" id="icon_fire" alt="">
+          </div>
+          <div class="banner__text">
+            <h2>La pila moderna de inteligencia de datos en la nube para su negocio de misión crítica.</h2>
+            <a href="#">Leer más</a>
+          </div>
+        </div>
+      </div>
+    </main>
+    
+  <div class="c-magic-area c-magic-area--menu" data-target-class=".c-main-menu__link" data-tween-back="true" aria-hidden="true"></div>
+  <div class="c-magic-area c-magic-area--content" data-target-class=".c-article__link" data-tween-back="false" aria-hidden="true"></div>
+
+  <main id="page" class="o-page">
+  <section class="o-main-section">
+    <h2 class="c-main-heading">Portfolio</h2>
+
+    <article class="c-article">
+      <a class="c-article__link" href="#">
+        <div>
+          <header>
+            <h3 class="c-article__heading">Ink transition with PNG sprite</h3>
+          </header>
+          <div class="c-article__content">
+            Animate images with ink transition in PNG sprite.
+          </div>
+        </div>
+        <div class="c-article__img-wrapper">
+          <img class="c-article__img" src="https://assets.codepen.io/204808/shin-yun-bok-ink.png" alt="Ink transition with PNG sprite" />
+        </div>
+      </a>
+    </article>
+
+    <article class="c-article">
+      <a class="c-article__link" href="#">
+        <div>
+          <header>
+            <h3 class="c-article__heading">Responsive Mondrian art with CSS grid</h3>
+          </header>
+          <div class="c-article__content">
+            Make a responsive Mondrian art with CSS grid layout.
+          </div>
+        </div>
+        <div class="c-article__img-wrapper">
+          <img class="c-article__img" src="https://assets.codepen.io/204808/css-grid-mondrian.png" alt="Responsive Mondrian art with CSS grid" />
+        </div>
+      </a>
+    </article>
+
+    
+    <article class="c-article">
+      <a class="c-article__link" href="#">
+        <div>
+          <header>
+            <h3 class="c-article__heading">Space rocket with requestAnimationFrame</h3>
+          </header>
+          <div class="c-article__content">
+            Create the space rocket animation with stars in different perspective.
+          </div>
+        </div>
+        <div class="c-article__img-wrapper">
+          <img class="c-article__img" src="https://assets.codepen.io/204808/17.Space-Rocket-with-requestAnimationFrame.png" alt="Responsive Mondrian art with CSS grid" />
+        </div>
+      </a>
+    </article>
+  </section>
+</main>
+
+  <script src="js/script.js"></script>
+    <!-- partial -->
+  <script src='https://unpkg.co/gsap@3/dist/gsap.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js'>
+
+  </script><script  src="js/script.js"></script>
+</body>
+</html>
